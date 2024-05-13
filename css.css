@@ -1,0 +1,116 @@
+body{
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+.header{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.header a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.header a:hover{
+    background-color:#00cd66;
+}
+input[type="button"]{
+    border-radius: 10px;
+    background-color:#00cd66;
+    padding: 7px 10px;
+    border: none;
+    
+}
+input[type="button"]:hover{
+    background-color: mediumseagreen;
+}
+.landing-page{
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    padding: 20px 50px;
+    border-radius: 0 0 40px 40px;
+
+}
+span{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.content-landing-page{
+    color: white;
+    width: 300px;
+}
+.input-search-landing-page input[type="text"]{
+    border-radius: 30px;
+    padding: 6px;
+    border: none;
+    outline: none;
+}
+.input-search-landing-page input[type="button"]{
+    translate: 5px;    
+    padding: 6px 15px;
+}
+.img-landing-page img{
+    border-radius: 20px;
+}
+.trandinh-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+    
+}
+.trandinh-header h2{
+    text-transform: uppercase;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+
+}
+.info a img{
+    width: 40px;
+    
+}
+.info a img:hover{
+    scale: 1.1;
+}
+.card-trend{
+    width: 150px;
+    background-color: #00cd6742;
+    border-radius: 10px;
+}
+.card-trend .image{
+    width:150px;
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+}
+.trending-games-cards{
+    padding:20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+   
+    
+    
+}
+.games{
+    background-color: #00cd6742;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
